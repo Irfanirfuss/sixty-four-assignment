@@ -1,0 +1,41 @@
+.sidebar-container {
+    width: 5%;
+    min-height: 100vh;
+    background-color: aqua;
+    transition: all ease-in 0.7s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.sidebar-container:hover {
+    width: 10%;
+}
+.sidebar-container > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sidebar-container > div > img {
+    width: 150px;
+    mix-blend-mode: darken;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+.icon-container > button {
+    color: gray;
+    font-size: 25px;
+    padding: 10px;
+}
+.i {
+    color: gray;
+    font-size: 25px;
+}
+@media (max-width: 768px) {
+    .icon-container > button {
+        font-size: 15px;
+    }
+}
