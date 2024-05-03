@@ -44,7 +44,7 @@ class Movies extends Component {
                         </p>
                         <p>
                             {" "}
-                            Today, {date.getDay()} {month[date.getMonth()]} {}
+                            Today, {date.getDate()} {month[date.getMonth()]} {}
                         </p>
 
                         <p>

@@ -35,7 +35,7 @@ header {
     margin-top: -20px;
     font-size: 10px;
 }
-ul > li {
+.saved > li {
     list-style: none;
     width: 50%px;
 
@@ -45,7 +45,7 @@ ul > li {
     padding: 10px;
     box-shadow: 0 0 5px gray, inset 0 0 5px gray;
 }
-ul {
+.saved {
     display: flex;
     flex-wrap: wrap;
     margin-top: -60px;
@@ -53,19 +53,19 @@ ul {
 header > div {
     margin-top: -70px;
 }
-li > p {
+.saved > li > p {
     color: gray;
 }
 h3 {
     color: cornflowerblue;
 }
-ul > li:hover {
+.saved > li:hover {
     transform: scale(1.07);
 }
 .card {
     width: 100%;
 }
-ul > li > h3 {
+.saved > li > h3 {
     height: 12px;
     margin-top: -3px;
 }
